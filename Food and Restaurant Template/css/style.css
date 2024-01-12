@@ -435,3 +435,19 @@ p {
     Footer Section Design
 =================================================
 */
+.footer{
+    background: var(--primary-color);
+}
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+}
+.footer .footer-link a:hover{
+    color: var(--white-color);
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
