@@ -1,7 +1,7 @@
 @import url();
 
 
-/* To Remove By deafault html elements */
+/* To Remove By default html elements */
 *,
 *:after,
 *:before {
@@ -35,8 +35,8 @@ ol {
 
 
 
-
 /*===== Variables Define ====*/
+
 :root {
     --primary-color:#A82C48;
     --secondary-color:#43121d;
@@ -58,7 +58,6 @@ body{
     font-size: 100%;
     font-weight: 400;
 }
-
 
 
 
@@ -207,6 +206,7 @@ p {
     margin-left: 0.625rem;
 }
 
+
  /* Change navbar styling on scroll  */
 
  .navigation-wrap.scroll-on{
@@ -223,7 +223,7 @@ p {
 
  /* 
  ================================================
-    top-banner Design
+    Top-Banner Design
 =================================================
 */
  .top-banner{
@@ -239,6 +239,7 @@ p {
     Counter Design
 =================================================
 */
+
  .counter-section{
     background-color: var(--primary-color);
     padding: 2.5rem 0;
@@ -248,11 +249,13 @@ p {
     text-transform: uppercase;
  }
 
+
 /* 
  ================================================
     About Section Design
 =================================================
 */
+
 .about-section{
     background: var(--white-color);
 }
@@ -265,11 +268,13 @@ p {
 }
 
 
+
 /* 
  ================================================
     Food Type Section Design
 =================================================
 */
+
  .food-type{
     padding-top: 3.25rem;
  }
@@ -303,11 +308,15 @@ p {
 .story-section h2{
     color: var(--primary-color);
 }
+
+
+
 /* 
  ================================================
     Explore Food Section Design
 =================================================
 */
+
 .explore-food .cart{
     border: none;
     background-color: transparent;
@@ -329,11 +338,15 @@ p {
     color: var(--text-gray);
     margin-left: 0.5rem;
 }
+
+
+
 /* 
  ================================================
     Testimonial Section Design
 =================================================
 */
+
 .testimonial-section{
     background-color: var(--primary-color);
 }
@@ -373,6 +386,7 @@ p {
     opacity: 1;
 }
 
+
 /* 
  ================================================
     FAQ Section Design
@@ -391,3 +405,33 @@ p {
     background-position: 0 71.9125px;
     padding: 4.375rem 0;
 }
+
+/* Form Control */
+.newsletter{
+    width: 55%;
+    margin: 0 auto;
+}
+.newsletter .formcontrol{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border:0.1875rem solid var(--text-gray);
+    color: var(--black-color);
+    font-weight: 700;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+/* 
+ ================================================
+    Footer Section Design
+=================================================
+*/
