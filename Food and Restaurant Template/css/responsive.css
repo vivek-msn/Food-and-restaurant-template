@@ -4,6 +4,8 @@
 
 }
 
+
+/* For Ipad/Ipad Pro */
 @media (max-width:991px) {
 
     /* custom classes  */
@@ -30,9 +32,12 @@
     }
 
     /* carousel design */
-
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
 }
 
+/* For Mobile Phone  */
 @media (max-width:767px) {
 
     /* custom css  */
@@ -54,4 +59,18 @@
         height: auto;
         padding: 3rem 0;
     }
+
+      /* carousel design */
+      .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+      }
+}
+
+/* For Small Devices  */
+@media (max-width:330px) {
+
+      /* carousel design */
+      .testimonial-section .carousel-item{
+        padding: 13rem 3.123rem;
+      }
 }
